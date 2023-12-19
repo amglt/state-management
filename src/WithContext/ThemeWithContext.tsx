@@ -1,8 +1,5 @@
 import { useState } from "react";
-import {
-  ThemeContext,
-  ThemeContextProps,
-} from "../../contexts/ThemeContext.tsx";
+import { ThemeContext, ThemeContextProps } from "./ThemeContext.tsx";
 import { CurrentThemeWithContext } from "./CurrentThemeWithContext.tsx";
 
 export function ThemeWithContext() {
