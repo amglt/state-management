@@ -7,7 +7,7 @@ export function ThemeWithContext() {
 
   return (
     <ThemeContext.Provider value={theme}>
-      <h2>Theme with context</h2>
+      <h2>Theme with Context API</h2>
       <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
         Click to change the theme
       </button>
